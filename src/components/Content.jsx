@@ -4,7 +4,7 @@ import Markdown from "react-markdown";
 import rehypeRaw from "rehype-raw";
 const Content = () => {
     const blog = useLoaderData()
-    const { cover_image, title, description, published_at, tags, body_html} = blog;
+    const { cover_image, title, tags, body_html} = blog;
 
     return (
         <div className=" mx-auto group hover:no-underline p-2 focus:no-underline border-2 border-opacity-30">
